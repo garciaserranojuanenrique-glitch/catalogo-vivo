@@ -60,3 +60,7 @@ export const PRODUCTOS: Producto[] = [
     facilidades: "30% de anticipo para apartar tu fecha, el resto el día del evento",
   },
 ];
+
+export function productoPorSlug(slug: string): Producto | undefined {
+  return PRODUCTOS.find((producto) => producto.slug === slug);
+}
