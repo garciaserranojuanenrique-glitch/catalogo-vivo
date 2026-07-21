@@ -5,7 +5,7 @@ export const CONFIG: Config = {
   marca: {
     negocio: "DELICHOCHO",
     descripcion: "SNACK BAR, PARA EVENTOS Y REUNIONES",
-    logo: undefined, // pon "/logo.png" cuando subas tu logo a la carpeta public
+    logo: "/logo.png",
     primario: "#9a3412",
     secundario: "#3f6212",
     fondo: "claro",
